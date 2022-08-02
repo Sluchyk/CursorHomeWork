@@ -10,7 +10,6 @@ public class Consumer implements  Runnable{
     public void run() {
         String massage;
         try {
-
              massage =this.reseivedMassage.take();
         } catch (InterruptedException e) {
             throw new RuntimeException(e);

@@ -1,5 +1,4 @@
 package HW1.task1;
-
 public class District {
     private String districsName;
     private int  distance;
@@ -8,8 +7,6 @@ public class District {
         this.districsName=districsName;
         this.distance=distance;
     }
-
-
     public String getDistricsName() {
         return districsName;
     }
@@ -25,6 +22,4 @@ public class District {
     public void setDistance(int distance) {
         this.distance = distance;
     }
-
-
 }

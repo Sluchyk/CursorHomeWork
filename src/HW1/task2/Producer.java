@@ -1,8 +1,6 @@
 package HW1.task2;
-
 import java.security.SecureRandom;
 import java.util.List;
-
 //receive message
 public class Producer implements  Runnable {
     private final Massage massage;
@@ -10,16 +8,13 @@ public class Producer implements  Runnable {
     {
         this.massage=massage;
     }
-
     @Override
     public void run() {
-
         try {
             massage.send(generateMassage());
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-
     }
     private  String generateMassage()
     {

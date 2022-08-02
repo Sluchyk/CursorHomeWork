@@ -1,5 +1,4 @@
 package HW1.task1;
-
 public class Fire {
     private  final  FireDepartment fireDepartment;
     Fire()

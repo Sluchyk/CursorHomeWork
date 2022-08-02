@@ -3,7 +3,6 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.concurrent.TimeUnit;
-
 public class Main {
     public static void main(String[] args) throws InterruptedException {
         Fire fire=new Fire();

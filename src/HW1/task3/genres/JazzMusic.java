@@ -1,7 +1,4 @@
 package HW1.task3.genres;
-
-import HW1.task3.PlayList;
-
 import java.security.SecureRandom;
 import java.util.List;
 

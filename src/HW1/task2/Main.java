@@ -4,6 +4,5 @@ public class Main {
             Massage massage=new Massage();
         (new Thread(new Producer(massage))).start();
         (new Thread(new Consumer(massage))).start();
-
     }
 }

@@ -1,7 +1,6 @@
 package HW1.task3.genres;
 import java.security.SecureRandom;
 import java.util.List;
-
 public class DiskoMusic implements GenrGenerator{
     @Override
     public String generateMessage() {

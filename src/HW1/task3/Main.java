@@ -1,7 +1,5 @@
 package HW1.task3;
-
 import HW1.task3.genres.*;
-
 public class Main {
     public static void main(String[] args) throws InterruptedException {
         PlayList playList=new PlayList();

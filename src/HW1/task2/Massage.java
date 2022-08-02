@@ -1,5 +1,4 @@
 package HW1.task2;
-
 public class Massage {
     private   String contexOfMassage;
     private  boolean isEmpty=true;
