@@ -14,5 +14,19 @@ dependencies {
 }
 
 test {
-
 }
+
+task Hello
+        {
+            println 'What`s up?'
+
+        }
+Hello.doLast
+        {
+    println 'Hello'
+        }
+Hello.doFirst
+        {
+            println ' Hi'
+        }
+
