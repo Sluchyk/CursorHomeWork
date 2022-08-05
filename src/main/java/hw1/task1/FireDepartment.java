@@ -1,7 +1,5 @@
 package HW1.task1;
-
 import java.util.concurrent.*;
-
 public class FireDepartment
 {
     ThreadPoolExecutor executor;
@@ -14,7 +12,6 @@ public class FireDepartment
         System.out.println("Call was taken");
         return executor.submit(()-> calculateTimeOfArrival(district));
     }
-
      private Future<?> calculateTimeOfArrival(District district)
      {
          return executor.submit(()->{
