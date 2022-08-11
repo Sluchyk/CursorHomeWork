@@ -2,3 +2,7 @@
 /out/
 # Project exclude paths
 /src/target/
+/.gradle
+CursorHomeWork.iml
+.idea
+.
